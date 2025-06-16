@@ -12,5 +12,3 @@ Several experiments were undertaken, with generation of a provenance chain from 
 Some challenges were highlighted, with reference to mapping the JSON schema of OGC API Records (RecordJSON) to DCAT, including similar element names with different semantics and the need to model the structure of Records.
 
 Even though little was done to progress testing this mapping further, a significant finding is that no alternative approach to machine readable mappings was identified by any participant, though the consensus was that _some_ machine readable FAIR mapping was necessary.
-
-TBD- feedback from Conterra - was any progress made?
