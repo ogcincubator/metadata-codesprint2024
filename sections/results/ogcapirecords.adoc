@@ -1,7 +1,7 @@
 [[results_ogcapirecords]]
 ==== OGC API - Records and Provenance
 
-Experimentation related to OGC API - Records included extension of pygeoapi to enable support for including Provenance details in Records. (Note the previous codesprint has explored capture of provenance in OGC API Processes).
+Experimentation related to OGC API - Records included extension of pygeoapi to enable support for including Provenance details in Records. (Note the previous code sprint has explored capture of provenance in OGC API Processes).
 
 The provenance model used is based on the W3C provenance model and a [draft "Building Block" that defines a JSON schema and a mapping directly to PROV using JSON-LD](https://ogcincubator.github.io/bblock-prov-schema/bblock/ogc.ogc-utils.prov).
 

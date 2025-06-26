@@ -1,4 +1,4 @@
-= Nov 2024 Metadata CodeSprint Summary Report
+= November 2024 Metadata Code Sprint Summary Report
 :doctype: discussion-paper
 :encoding: utf-8
 :lang: en

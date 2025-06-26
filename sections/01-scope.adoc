@@ -38,7 +38,7 @@ Another goal under consideration is to move the Geonetwork 4 FormatterAPI, as we
 XAI- OGC API Processes for RAG/LLM using GeoDCAT and PROV #18
 The LangFlow toolkit uses Apache Airflow to define and run workflows using the LangChain toolkit. If such a workflow used or generated geospatial information sources, then wrapping it in OGC API Processess, and capturing details of the source, output and training data usage using the PROV model makes sense to integrate into spatial systems.
 
-Potential codesprint outputs:
+Potential code sprint outputs:
 
 GeoDCAT profile for PROV using LangChain workflow examples - extending and/or maturing the [existing Records-PROV Building Block - work in progress] (https://ogcincubator.github.io/geodcat-ogcapi-records/bblock/ogc.geo.geodcat.geodcat-records-prov) - note for a start this can simply demonstrate use of the generic PROV pattern supported with real workflow examples.
 Define a new Building Block PROV-AI profile for AI defining types of activities, using TrainingML

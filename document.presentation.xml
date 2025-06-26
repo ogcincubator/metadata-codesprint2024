@@ -94,7 +94,7 @@ For the purposes of this document, the terms and definitions given in % and the 
 <semantic__title>Preface</semantic__title>
 <semantic__clause id="semantic___acknowledgements" obligation="informative">
 <semantic__title>Acknowledgements</semantic__title>
-<semantic__p id="semantic___93c25530-805d-ef24-3040-03f665b47bc8">OGC thanks the following organisations for material support for this codesprint:</semantic__p>
+<semantic__p id="semantic___93c25530-805d-ef24-3040-03f665b47bc8">OGC thanks the following organisations for material support for this code sprint:</semantic__p>
 
 <semantic__ul id="semantic___1f4e8cc6-a963-e59e-7480-a7339698dac3"><semantic__li><semantic__p id="semantic___0f0efbb8-7e5f-141a-7fa8-e153653d1de9">[University of NSW School of the Built Environment, Geospatial Research Innovation Development (UNSW GRID)](<semantic__link target="https://www.unsw.edu.au/arts-design-architecture/our-schools/built-environment/our-research/clusters-groups/grid"/>) for the venue and logistics.</semantic__p>
 </semantic__li>
@@ -190,7 +190,7 @@ For the purposes of this document, the terms and definitions given in % and the 
 
 <semantic__p id="semantic___ba9893e0-34c1-7f06-99e8-afc02a023408">XAI- OGC API Processes for RAG/LLM using GeoDCAT and PROV #18 The LangFlow toolkit uses Apache Airflow to define and run workflows using the LangChain toolkit. If such a workflow used or generated geospatial information sources, then wrapping it in OGC API Processess, and capturing details of the source, output and training data usage using the PROV model makes sense to integrate into spatial systems.</semantic__p>
 
-<semantic__p id="semantic___a48c1112-1a2c-cc55-0c2d-bac84d2b59ee">Potential codesprint outputs:</semantic__p>
+<semantic__p id="semantic___a48c1112-1a2c-cc55-0c2d-bac84d2b59ee">Potential code sprint outputs:</semantic__p>
 
 <semantic__p id="semantic___11777165-b44e-2c98-5e19-5d551eaa9b8c">GeoDCAT profile for PROV using LangChain workflow examples — extending and/or maturing the [existing Records-PROV Building Block — work in progress] (<semantic__link target="https://ogcincubator.github.io/geodcat-ogcapi-records/bblock/ogc.geo.geodcat.geodcat-records-prov"/>) — note for a start this can simply demonstrate use of the generic PROV pattern supported with real workflow examples. Define a new Building Block PROV-AI profile for AI defining types of activities, using TrainingML GeoDCAT+PROV-AI profile (richer version of first with full description of activity and training set specifics Code for generic AirFlow components to capture provenance — wrappers for existing components? Code for LangFlow to capture specific provenance details OGCAPI-Processess profile for including PROV (draft to be available for review and testing) Code for AirFlow to generate OGC API Processess interface to export output and provenance STAC and OGC API Records extension/profiles for PROV-AI — building on STAC-PROV extension Examples and mappings for STAC as a profile of OGC-API Records mapped to DCAT — linking GeoDCAT-PROV to STAC-PROV and Records-PROV Code for AirFlow to generate STAC or Records metadata traces for generated objects Code for AirFlow to import STAC or Records metadata traces for referenced data objects and attach to the generated provenance trace extend existing Code for PyGeoAPI to deliver Records with PROV profile extend any OGC Records or STAC client to display provenance information extend and OGC Records or STAC editor to display and manage provenance information These are all fairly small individually — but publishing the profiles as Building Blocks — or testing existing ones with these scenarios — ensures a output that can be built upon systematically, so any combination of the tasks has value to progress GeoDCAT and OGC APIs as an interoperability framework for XGeoAI — “Explainable AI for Geospatial”.</semantic__p>
 </semantic__clause>
@@ -414,7 +414,7 @@ For the purposes of this document, the terms and definitions given in % and the 
 
 <semantic__p id="semantic___6acfbc31-2ee7-58bb-f4a6-861e0db0f06d">It was not assumed that specific standards could be developed not tested thoroughly, however the general principle of extending multiple metadata standards with extensions based on common models was prioritised, with a focus on Provenance.  Provenance represents a complex challenge with a well-known conceptual model, so testing if a solution to this complex challenge can be successfully re-used provides clear direction to the problems of extending metadata standards for any specific aspects.</semantic__p>
 
-<semantic__p id="semantic___08a89311-d057-b412-2b39-4258924eb7a4">The key <semantic__strong>methodology</semantic__strong> used was the testing of examples based on prior work to model a reusable JSON schema for PROV-O with a ready-to-use JSON-LD semantic mapping, thus encapsulating a complex problem to make implementation feasible. Some codesprint activities tested the feasibility of re-use of such an extension.</semantic__p>
+<semantic__p id="semantic___08a89311-d057-b412-2b39-4258924eb7a4">The key <semantic__strong>methodology</semantic__strong> used was the testing of examples based on prior work to model a reusable JSON schema for PROV-O with a ready-to-use JSON-LD semantic mapping, thus encapsulating a complex problem to make implementation feasible. Some code sprint activities tested the feasibility of re-use of such an extension.</semantic__p>
 
 <semantic__figure id="semantic__img_architecture" width="1200">
 <semantic__name>High Level Overview of the Sprint Architecture</semantic__name>
@@ -570,7 +570,7 @@ For the purposes of this document, the terms and definitions given in % and the 
 <semantic__title>Candidate OGC Standards</semantic__title>
 <semantic__clause id="semantic__results_ogcapirecords" obligation="normative">
 <semantic__title>OGC API — Records and Provenance</semantic__title>
-<semantic__p id="semantic___c86cd4f9-c338-9664-d700-a38499871f52">Experimentation related to OGC API — Records included extension of pygeoapi to enable support for including Provenance details in Records. (Note the previous codesprint has explored capture of provenance in OGC API Processes).</semantic__p>
+<semantic__p id="semantic___c86cd4f9-c338-9664-d700-a38499871f52">Experimentation related to OGC API — Records included extension of pygeoapi to enable support for including Provenance details in Records. (Note the previous code sprint has explored capture of provenance in OGC API Processes).</semantic__p>
 
 <semantic__p id="semantic___8215e242-e411-f78c-649f-f6087b777ae0">The provenance model used is based on the W3C provenance model and a [draft “Building Block” that defines a JSON schema and a mapping directly to PROV using JSON-LD](<semantic__link target="https://ogcincubator.github.io/bblock-prov-schema/bblock/ogc.ogc-utils.prov"/>).</semantic__p>
 
@@ -595,7 +595,7 @@ For the purposes of this document, the terms and definitions given in % and the 
 
 <semantic__p id="semantic___6363abfd-5c9b-98b6-6608-a86aa3401018"><semantic__xref target="semantic__img_xai"/> shows the target for a workflow based on the LangFlow toolkit, based on the open source Apache AirFlow tools.</semantic__p>
 
-<semantic__p id="semantic___2d887349-a5c6-015f-9136-f6e472f55412">Within the limited time available in the codesprint it was shown that generating a provenance trace that conformed to the proposed standardised schema was achievable.  It was not feasible within the same limited time to learn and implement OGC API Processes, however another participant has demonstrated this is feasible as part of work on DGGS APIs.</semantic__p>
+<semantic__p id="semantic___2d887349-a5c6-015f-9136-f6e472f55412">Within the limited time available in the code sprint it was shown that generating a provenance trace that conformed to the proposed standardised schema was achievable.  It was not feasible within the same limited time to learn and implement OGC API Processes, however another participant has demonstrated this is feasible as part of work on DGGS APIs.</semantic__p>
 
 <semantic__figure id="semantic__img_xai" width="1200">
 <semantic__name>Architecture to generate OGC API Records with Provenance from AI processes.</semantic__name>
@@ -803,12 +803,12 @@ rr:subjectMap [
 <semantic__title>ISO 19115-4</semantic__title>
 <semantic__p id="semantic___99b61d02-15bf-097d-50f7-5ef9d5644961">The draft project plan for ISO 19115-4 (JSON encoding) and revisions to 19115-1 was presented and feedback solicited.</semantic__p>
 
-<semantic__p id="semantic___1456db8f-6a43-fa44-684b-2fdbefb8103e">The issue of modular implementation was discussed.  Of particular relevance to the code sprint was the statement “Recommendation is to use PROV as a vocabulary for encoding ‘lineage’ within a DCAT context “.  The codesprint undertook several experiments to validate the feasibility of this from the perspective of re-use of a draft JSON schema that is compatible with GeoJSON Features and OGC API Records, and supports a FAIR mapping to DCAT.</semantic__p>
+<semantic__p id="semantic___1456db8f-6a43-fa44-684b-2fdbefb8103e">The issue of modular implementation was discussed.  Of particular relevance to the code sprint was the statement “Recommendation is to use PROV as a vocabulary for encoding ‘lineage’ within a DCAT context “.  The code sprint undertook several experiments to validate the feasibility of this from the perspective of re-use of a draft JSON schema that is compatible with GeoJSON Features and OGC API Records, and supports a FAIR mapping to DCAT.</semantic__p>
 </semantic__clause>
 
 <semantic__clause id="semantic___identification_of_common_patterns_and_challenges" obligation="normative">
 <semantic__title>Identification of common patterns and challenges</semantic__title>
-<semantic__p id="semantic___fb38c5af-79c6-f71f-de9a-457fd36d27ff">As a result of discussion of various aspects of various metadata standards being examined by participants during the codesprint, a “framework” for characterising the common patterns being observed was developed. This is described in detail in the results <semantic__xref target="semantic__metadata_framework"/>, since the consensus reached around this understanding represents a significant outcome of the codesprint, and a theory that can be systematically tested and operationalised in terms of future efforts to support standards application and alignments.</semantic__p>
+<semantic__p id="semantic___fb38c5af-79c6-f71f-de9a-457fd36d27ff">As a result of discussion of various aspects of various metadata standards being examined by participants during the code sprint, a “framework” for characterising the common patterns being observed was developed. This is described in detail in the results <semantic__xref target="semantic__metadata_framework"/>, since the consensus reached around this understanding represents a significant outcome of the code sprint, and a theory that can be systematically tested and operationalised in terms of future efforts to support standards application and alignments.</semantic__p>
 </semantic__clause>
 
 <semantic__clause id="semantic__iso19115_discussion" obligation="normative">
@@ -1624,7 +1624,7 @@ sourcecode .nt {
 <title depth="1">II.<tab/>Preface</title>
 <clause id="_acknowledgements" obligation="informative">
 <title depth="2">II.A.<tab/>Acknowledgements</title>
-<p id="_93c25530-805d-ef24-3040-03f665b47bc8">OGC thanks the following organisations for material support for this codesprint:</p>
+<p id="_93c25530-805d-ef24-3040-03f665b47bc8">OGC thanks the following organisations for material support for this code sprint:</p>
 
 <ul id="_1f4e8cc6-a963-e59e-7480-a7339698dac3"><li><p id="_0f0efbb8-7e5f-141a-7fa8-e153653d1de9">[University of NSW School of the Built Environment, Geospatial Research Innovation Development (UNSW GRID)](<link target="https://www.unsw.edu.au/arts-design-architecture/our-schools/built-environment/our-research/clusters-groups/grid"/>) for the venue and logistics.</p>
 </li>
@@ -1726,7 +1726,7 @@ sourcecode .nt {
 
 <p id="_ba9893e0-34c1-7f06-99e8-afc02a023408">XAI- OGC API Processes for RAG/LLM using GeoDCAT and PROV #18 The LangFlow toolkit uses Apache Airflow to define and run workflows using the LangChain toolkit. If such a workflow used or generated geospatial information sources, then wrapping it in OGC API Processess, and capturing details of the source, output and training data usage using the PROV model makes sense to integrate into spatial systems.</p>
 
-<p id="_a48c1112-1a2c-cc55-0c2d-bac84d2b59ee">Potential codesprint outputs:</p>
+<p id="_a48c1112-1a2c-cc55-0c2d-bac84d2b59ee">Potential code sprint outputs:</p>
 
 <p id="_11777165-b44e-2c98-5e19-5d551eaa9b8c">GeoDCAT profile for PROV using LangChain workflow examples — extending and/or maturing the [existing Records-PROV Building Block — work in progress] (<link target="https://ogcincubator.github.io/geodcat-ogcapi-records/bblock/ogc.geo.geodcat.geodcat-records-prov"/>) — note for a start this can simply demonstrate use of the generic PROV pattern supported with real workflow examples. Define a new Building Block PROV-AI profile for AI defining types of activities, using TrainingML GeoDCAT+PROV-AI profile (richer version of first with full description of activity and training set specifics Code for generic AirFlow components to capture provenance — wrappers for existing components? Code for LangFlow to capture specific provenance details OGCAPI-Processess profile for including PROV (draft to be available for review and testing) Code for AirFlow to generate OGC API Processess interface to export output and provenance STAC and OGC API Records extension/profiles for PROV-AI — building on STAC-PROV extension Examples and mappings for STAC as a profile of OGC-API Records mapped to DCAT — linking GeoDCAT-PROV to STAC-PROV and Records-PROV Code for AirFlow to generate STAC or Records metadata traces for generated objects Code for AirFlow to import STAC or Records metadata traces for referenced data objects and attach to the generated provenance trace extend existing Code for PyGeoAPI to deliver Records with PROV profile extend any OGC Records or STAC client to display provenance information extend and OGC Records or STAC editor to display and manage provenance information These are all fairly small individually — but publishing the profiles as Building Blocks — or testing existing ones with these scenarios — ensures a output that can be built upon systematically, so any combination of the tasks has value to progress GeoDCAT and OGC APIs as an interoperability framework for XGeoAI — “Explainable AI for Geospatial”.</p>
 </clause>
@@ -1908,7 +1908,7 @@ sourcecode .nt {
 
 <p id="_6acfbc31-2ee7-58bb-f4a6-861e0db0f06d">It was not assumed that specific standards could be developed not tested thoroughly, however the general principle of extending multiple metadata standards with extensions based on common models was prioritised, with a focus on Provenance.  Provenance represents a complex challenge with a well-known conceptual model, so testing if a solution to this complex challenge can be successfully re-used provides clear direction to the problems of extending metadata standards for any specific aspects.</p>
 
-<p id="_08a89311-d057-b412-2b39-4258924eb7a4">The key <strong>methodology</strong> used was the testing of examples based on prior work to model a reusable JSON schema for PROV-O with a ready-to-use JSON-LD semantic mapping, thus encapsulating a complex problem to make implementation feasible. Some codesprint activities tested the feasibility of re-use of such an extension.</p>
+<p id="_08a89311-d057-b412-2b39-4258924eb7a4">The key <strong>methodology</strong> used was the testing of examples based on prior work to model a reusable JSON schema for PROV-O with a ready-to-use JSON-LD semantic mapping, thus encapsulating a complex problem to make implementation feasible. Some code sprint activities tested the feasibility of re-use of such an extension.</p>
 
 <figure id="img_architecture" width="1200">
 <name>Figure 1 — High Level Overview of the Sprint Architecture</name>
@@ -2064,7 +2064,7 @@ sourcecode .nt {
 <title depth="2">4.4.<tab/>Candidate OGC Standards</title>
 <clause id="results_ogcapirecords" obligation="normative">
 <title depth="3">4.4.1.<tab/>OGC API — Records and Provenance</title>
-<p id="_c86cd4f9-c338-9664-d700-a38499871f52">Experimentation related to OGC API — Records included extension of pygeoapi to enable support for including Provenance details in Records. (Note the previous codesprint has explored capture of provenance in OGC API Processes).</p>
+<p id="_c86cd4f9-c338-9664-d700-a38499871f52">Experimentation related to OGC API — Records included extension of pygeoapi to enable support for including Provenance details in Records. (Note the previous code sprint has explored capture of provenance in OGC API Processes).</p>
 
 <p id="_8215e242-e411-f78c-649f-f6087b777ae0">The provenance model used is based on the W3C provenance model and a [draft “Building Block” that defines a JSON schema and a mapping directly to PROV using JSON-LD](<link target="https://ogcincubator.github.io/bblock-prov-schema/bblock/ogc.ogc-utils.prov"/>).</p>
 
@@ -2089,7 +2089,7 @@ sourcecode .nt {
 
 <p id="_6363abfd-5c9b-98b6-6608-a86aa3401018"><xref target="img_xai">Figure 4</xref> shows the target for a workflow based on the LangFlow toolkit, based on the open source Apache AirFlow tools.</p>
 
-<p id="_2d887349-a5c6-015f-9136-f6e472f55412">Within the limited time available in the codesprint it was shown that generating a provenance trace that conformed to the proposed standardised schema was achievable.  It was not feasible within the same limited time to learn and implement OGC API Processes, however another participant has demonstrated this is feasible as part of work on DGGS APIs.</p>
+<p id="_2d887349-a5c6-015f-9136-f6e472f55412">Within the limited time available in the code sprint it was shown that generating a provenance trace that conformed to the proposed standardised schema was achievable.  It was not feasible within the same limited time to learn and implement OGC API Processes, however another participant has demonstrated this is feasible as part of work on DGGS APIs.</p>
 
 <figure id="img_xai" width="1200">
 <name>Figure 4 — Architecture to generate OGC API Records with Provenance from AI processes.</name>
@@ -2297,12 +2297,12 @@ rr:subjectMap [
 <title depth="2">5.1.<tab/>ISO 19115-4</title>
 <p id="_99b61d02-15bf-097d-50f7-5ef9d5644961">The draft project plan for ISO 19115-4 (JSON encoding) and revisions to 19115-1 was presented and feedback solicited.</p>
 
-<p id="_1456db8f-6a43-fa44-684b-2fdbefb8103e">The issue of modular implementation was discussed.  Of particular relevance to the code sprint was the statement “Recommendation is to use PROV as a vocabulary for encoding ‘lineage’ within a DCAT context “.  The codesprint undertook several experiments to validate the feasibility of this from the perspective of re-use of a draft JSON schema that is compatible with GeoJSON Features and OGC API Records, and supports a FAIR mapping to DCAT.</p>
+<p id="_1456db8f-6a43-fa44-684b-2fdbefb8103e">The issue of modular implementation was discussed.  Of particular relevance to the code sprint was the statement “Recommendation is to use PROV as a vocabulary for encoding ‘lineage’ within a DCAT context “.  The code sprint undertook several experiments to validate the feasibility of this from the perspective of re-use of a draft JSON schema that is compatible with GeoJSON Features and OGC API Records, and supports a FAIR mapping to DCAT.</p>
 </clause>
 
 <clause id="_identification_of_common_patterns_and_challenges" obligation="normative">
 <title depth="2">5.2.<tab/>Identification of common patterns and challenges</title>
-<p id="_fb38c5af-79c6-f71f-de9a-457fd36d27ff">As a result of discussion of various aspects of various metadata standards being examined by participants during the codesprint, a “framework” for characterising the common patterns being observed was developed. This is described in detail in the results <xref target="metadata_framework">Clause 4.2.1</xref>, since the consensus reached around this understanding represents a significant outcome of the codesprint, and a theory that can be systematically tested and operationalised in terms of future efforts to support standards application and alignments.</p>
+<p id="_fb38c5af-79c6-f71f-de9a-457fd36d27ff">As a result of discussion of various aspects of various metadata standards being examined by participants during the code sprint, a “framework” for characterising the common patterns being observed was developed. This is described in detail in the results <xref target="metadata_framework">Clause 4.2.1</xref>, since the consensus reached around this understanding represents a significant outcome of the code sprint, and a theory that can be systematically tested and operationalised in terms of future efforts to support standards application and alignments.</p>
 </clause>
 
 <clause id="iso19115_discussion" obligation="normative">
